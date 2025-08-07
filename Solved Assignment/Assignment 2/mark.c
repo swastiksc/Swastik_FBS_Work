@@ -1,0 +1,34 @@
+#include<stdio.h>
+void main()
+{
+	int mark=80;
+	if(mark>=75)
+	{
+		printf("a+");
+	}
+	else
+	{
+		if(mark>=55)
+		{
+			printf("b+");
+		}
+		else
+		{
+			if(mark>=45)
+			{
+				printf("c+");
+			}
+			else
+			{
+				if(mark>=35)
+				{
+					printf("pass");
+				}
+				else
+				{
+					printf("fail");
+				}
+			}
+		}
+	}
+}
